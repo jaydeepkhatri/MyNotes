@@ -1,0 +1,14 @@
+$themecolor1: #0A1931;
+$themecolor2: #185ADB;
+$themecolor3: #FFC947;
+$themecolor4: #FAFAFA;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: $themecolor4;
+}
