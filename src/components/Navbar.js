@@ -24,7 +24,7 @@ const Navbar = () => {
                         MyNotes
                     </Typography>
                     <Tooltip TransitionComponent={Zoom} title="Github">
-                        <Button color="inherit" href="#"><Github /></Button>
+                        <Button color="inherit" href="https://github.com/jaydeepkhatri/MyNotes"><Github /></Button>
                     </Tooltip>
                 </Toolbar>
             </AppBar>
