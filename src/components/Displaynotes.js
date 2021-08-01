@@ -56,9 +56,9 @@ const Displaynotes = ({ notes, handleDeleteNode }) => {
                                                 <Edit fontSize="small" />
                                             </Tooltip>
                                         </IconButton>
-                                        <IconButton>
+                                        <IconButton onClick={() => handleDeleteNode(note.id)}>
                                             <Tooltip TransitionComponent={Zoom} title="Delete">
-                                                <Delete fontSize="small" onClick={() => handleDeleteNode(note.id)} />
+                                                <Delete fontSize="small" />
                                             </Tooltip>
                                         </IconButton>
                                     </Box>
