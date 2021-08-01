@@ -21,7 +21,7 @@ const Navbar = () => {
             <AppBar className={classes.root} variant="elevation">
                 <Toolbar>
                     <Typography variant="h6" className={classes.title}>
-                        Notes App
+                        MyNotes
                     </Typography>
                     <Tooltip TransitionComponent={Zoom} title="Github">
                         <Button color="inherit" href="#"><Github /></Button>
