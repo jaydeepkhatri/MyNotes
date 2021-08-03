@@ -1,7 +1,7 @@
-[![Contributors][https://img.shields.io/github/contributors/jaydeepkhatri/MyNotes.svg?style=for-the-badge]](https://github.com/jaydeepkhatri/MyNotes/graphs/contributors)
-[![Forks][https://img.shields.io/github/forks/jaydeepkhatri/MyNotes.svg?style=for-the-badge]](https://github.com/jaydeepkhatri/MyNotes/network/members)
-[![Stargazers][https://img.shields.io/github/stars/jaydeepkhatri/MyNotes.svg?style=for-the-badge]](https://github.com/jaydeepkhatri/MyNotes/stargazers)
-[![Issues][https://img.shields.io/github/issues/jaydeepkhatri/MyNotes.svg?style=for-the-badge]](https://github.com/jaydeepkhatri/MyNotes/issues)
+[![Contributors](https://img.shields.io/github/contributors/jaydeepkhatri/MyNotes.svg?style=for-the-badge)](https://github.com/jaydeepkhatri/MyNotes/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/jaydeepkhatri/MyNotes.svg?style=for-the-badge)](https://github.com/jaydeepkhatri/MyNotes/network/members)
+[![Stargazers](https://img.shields.io/github/stars/jaydeepkhatri/MyNotes.svg?style=for-the-badge)](https://github.com/jaydeepkhatri/MyNotes/stargazers)
+[![Issues](https://img.shields.io/github/issues/jaydeepkhatri/MyNotes.svg?style=for-the-badge)](https://github.com/jaydeepkhatri/MyNotes/issues)
 
 <h3 align="center">Notes App</h3>
 <p align="center">
