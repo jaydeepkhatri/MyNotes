@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-const Displaynotes = ({ notes, handleDeleteNode }) => {
+const Displaynotes = ({ notes, handleEditNote, handleDeleteNote }) => {
     const classes = useStyles();
     return (
         <Container className={classes.root} maxWidth="lg">
@@ -51,12 +51,12 @@ const Displaynotes = ({ notes, handleDeleteNode }) => {
                                     <p className={classes.text}>{note.text}</p>
                                     <Box display="flex" alignItems="center">
                                         <p className={classes.charac}>{note.date}</p>
-                                        <IconButton>
+                                        <IconButton onClick={() => handleEditNote(note.id)}>
                                             <Tooltip TransitionComponent={Zoom} title="Edit">
                                                 <Edit fontSize="small" />
                                             </Tooltip>
                                         </IconButton>
-                                        <IconButton onClick={() => handleDeleteNode(note.id)}>
+                                        <IconButton onClick={() => handleDeleteNote(note.id)}>
                                             <Tooltip TransitionComponent={Zoom} title="Delete">
                                                 <Delete fontSize="small" />
                                             </Tooltip>

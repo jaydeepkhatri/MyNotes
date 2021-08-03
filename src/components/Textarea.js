@@ -1,7 +1,7 @@
 import { Box, IconButton, Tooltip, Zoom } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { Send } from "@material-ui/icons";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -43,12 +43,20 @@ const useStyles = makeStyles((theme) => ({
 
 }))
 
-const Textarea = ({ handleAddNote }) => {
+const Textarea = ({ note, handleAddNote }) => {
+    // usestate to this function
+    const { title, text } = note;
 
-    const [noteTitle, setNoteTitle] = useState('');
-    const [noteText, setNoteText] = useState('');
+
+    const [noteTitle, setNoteTitle] = useState(title);
+    const [noteText, setNoteText] = useState(text);
     const characterlimit = 256;
     const titlelimit = 20;
+    useEffect(() => {
+        setNoteTitle(title);
+        setNoteText(text);
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+    }, [title, text])
 
     const handleChange = (e) => {
         if (characterlimit - e.target.value.length >= 0) {
@@ -71,10 +79,6 @@ const Textarea = ({ handleAddNote }) => {
             setNoteTitle('');
         }
     }
-
-
-
-
 
     const classes = useStyles();
     return (
