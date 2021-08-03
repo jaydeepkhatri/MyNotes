@@ -8,6 +8,9 @@ $themecolor4: #FAFAFA;
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Roboto', sans-serif;
     background: $themecolor4;
