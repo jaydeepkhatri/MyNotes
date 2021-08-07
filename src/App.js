@@ -14,6 +14,7 @@ const App = () => {
     title: "",
     date: "",
     id: "",
+    tag: "Other",
     text: ""
   });
   const [snackbarMessage, setSnackbarMessage] = useState('');
@@ -29,12 +30,13 @@ const App = () => {
 
 
   /* Adding new notes to current notes list */
-  const addNote = (title, text) => {
+  const addNote = (title, text, tag) => {
     const date = new Date();
     const newNote = {
       id: nanoid(),
       title: title,
       text: text,
+      tag: tag,
       date: date.toLocaleDateString()
     }
     const newNotes = [...notes, newNote];
