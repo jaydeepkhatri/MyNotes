@@ -3,7 +3,7 @@
 [![Stargazers](https://img.shields.io/github/stars/jaydeepkhatri/MyNotes.svg?style=for-the-badge)](https://github.com/jaydeepkhatri/MyNotes/stargazers)
 [![Issues](https://img.shields.io/github/issues/jaydeepkhatri/MyNotes.svg?style=for-the-badge)](https://github.com/jaydeepkhatri/MyNotes/issues)
 
-<p align="center"><img src="./src/assets/images/notepad.png" width="72px" height="72px" /></p>
+<p align="center"><img src="./src/assets/images/notepad.png" width="72px" height="72px" alt="Icon from Flaticon" /></p>
 <h3 align="center">Notes App</h3>
 <p align="center">
     <a href="https://mynotes-react.herokuapp.com/">View Demo</a><br/>
